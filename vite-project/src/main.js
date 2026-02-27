@@ -10,5 +10,5 @@ menu.addEventListener("click", () => {
 });
 hidemenu.addEventListener("click", () => {
   console.log("clicked1");
-  hidemenu.classList.toggle("remove");
+  hidemenu.classList.remove("showsidebar");
 });
